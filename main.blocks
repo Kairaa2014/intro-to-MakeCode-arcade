@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="/-f=LJXw4X)_[x.$z4Z.">Player</variable><variable type="KIND_SpriteKind" id="Z$[}{5Mp1ZvRBa|}%TtH">Projectile</variable><variable type="KIND_SpriteKind" id="}n1|a2*==:Suq-1Ad.HV">Food</variable><variable type="KIND_SpriteKind" id="NFDCG*7v(WDoAxRdj0lR">Enemy</variable><variable id=",Uqr8ejZgWQ{0E%D;r0w">MainSprite</variable><variable id="2W`QlO*^?B+cB6fdr]Ul">mySprite</variable></variables><block type="keyonevent" id="I87%`Ak@mU[sFzfiF$_O" x="0" y="0"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="startEffectOnSprite" id="(ge8fn*$}k5wFJ3C2H5r"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><field name="effect">effects.clouds</field><value name="sprite"><block type="variables_get" id="p,aC-#Sn$FU+%pSiipEE"><field name="VAR" id=",Uqr8ejZgWQ{0E%D;r0w">MainSprite</field></block></value><value name="duration"><shadow type="timePicker"><field name="ms">500</field></shadow><block type="device_random" id="p[LDxH[]@V7(?B+Ut{K8"><value name="min"><shadow type="math_number" id="GtVc0/#jnhormzY0eAD}"><field name="NUM">100</field></shadow></value><value name="limit"><shadow type="math_number" id="K0xC^KSXC:-GQ@x-j^+g"><field name="NUM">600</field></shadow></value></block></value></block></statement></block><block type="pxt-on-start" id="i@t[`mk?;}g%Cc?;f},u" x="0" y="320"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id=":Er]pv[,A#j64CbwzVdv"><value name="color"><shadow type="colorindexpicker" id="YH?dEM7+~gbjr3@QZk;@"><field name="index">3</field></shadow></value><next><block type="gameSplash" id="ZVrb:j-UbTMuKLE@rZ~p"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="title"><shadow type="text" id="|ZHJ/,ZdSzsmlz[[E,4R"><field name="TEXT">Hello this is the makecode tutorial!</field></shadow></value><next><block type="gameSplash" id="bbZdEt)3T^VAh%:`zfy+"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="title"><shadow type="text" id="Oo=xD:RkK9|eu,p,AHTc"><field name="TEXT">I am going to do follow the instructions now!</field></shadow></value><value name="subtitle"><shadow type="text" id="+4asM8OY`hH(eC*|LT.O"><field name="TEXT"></field></shadow></value><next><block type="variables_set" id=",t-H07)}(Aqsz*@W1ql)"><field name="VAR" id=",Uqr8ejZgWQ{0E%D;r0w">MainSprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="/Mc6tl=@P!o3J^$OXZpw"><value name="img"><shadow type="screen_image_picker" id="$_q{EVU20]tri:Pg]3gq"><field name="img">img`
+. f f f . f f f f . f f f . 
+f f f f f c c c c f f f f f 
+f f f f b c c c c b f f f f 
+f f f c 3 c c c c 3 c f f f 
+. f 3 3 c c c c c c 3 3 f . 
+. f c c c c d d c c c c f . 
+. f f c c d d d d c c f f . 
+. f f f b f d d f b f f f . 
+. f f 5 1 f d d f 1 5 f f . 
+. . f f d d d d d d f f . . 
+. . e f e 5 5 5 5 e f e . . 
+. e 5 f b 3 3 3 3 b f 5 e . 
+. d d f 3 3 3 3 3 3 c d d . 
+. d d f c c c c c c f d d . 
+. . . . f f f f f f . . . . 
+. . . . f f . . f f . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"$_q{EVU20]tri:Pg]3gq"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="s;i*htTSG*ziTH4YBrpA"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></next></block></statement></block></xml>
